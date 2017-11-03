@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, a, p {
+h1, h2, h3, h4, h5, h6, a {
   font-family: "vcr-osd-mono", sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
@@ -21,21 +21,31 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1rem;
 }
 
+h1 {
+  color: #FFA500;
+}
+
 h2:hover {
 
 }
 
 p {
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 0.9rem;
 }
 
 a {
+  color: black;
   margin: 1rem;
   text-decoration: none;
 }
 
 a:visited {
   color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 
@@ -66,4 +76,24 @@ styleguide navigation
 ******************************************************/
 #nav-container {
   width: 30%;
+}
+
+/*****************************************************
+introduction
+******************************************************/
+#content {
+  width: 100%;
+  height: 100vh;
+}
+
+#introduction-container {
+  margin: auto;
+  width: 30%;
+}
+
+/*****************************************************
+works
+******************************************************/
+#works {
+  margin: auto;
 }
